@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+    <link rel="stylesheet" href="bird.css">
+
+</head>
+
+
+
+
+
+<body>
+    <div class="message">
+        <h1>Press Enter To Start Game</h1> 
+        
+             <p>Press the top arrow to move to the top</p>
+             <p>Press the down arrow to move to the down</p>
+     </div>
+
+    <div class="container">
+        <img id="ele" class="bird" src="bird-blue.gif" alt="bird-img">
+
+        <div class="score">
+
+            <span class="score_title">score</span>
+
+            <span class="score_val"></span>
+        </div>
+        <div class="pipe_sprite">
+        </div>
+        <div id="hole"></div>
+
+    </div>
+    <div class="game-over">
+        <h1>Game Over</h1>
+        <p>Your scor is <span >00</span></p>
+        <p>Press Enter to replay</p>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="bird.js"></script>
+
+</body>
+
+
+
+</html>
